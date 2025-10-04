@@ -1,0 +1,22 @@
+.SearchBox {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+.light .SearchBox {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.dark .SearchBox {
+  background: #1C2833;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.6);
+}
+
+.SearchBox button {
+  margin-top: 15px;
+  transition: 0.3s;
+}

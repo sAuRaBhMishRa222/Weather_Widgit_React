@@ -1,0 +1,28 @@
+.Weather {
+  min-height: 100vh;        /* at least full screen, grows with content */
+  width: 100%;
+  background-size: cover;   /* stretch image to cover container */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* makes background stay while scrolling */
+  transition: background-image 0.5s ease, color 0.3s ease;
+  color: white;
+
+  /* Centering content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Weather.light {
+  background-image: url("/1_B.jpg");
+  color: #222;
+}
+
+.Weather.dark {
+  background-image: url("/1_A.jpg");
+  color: #f5f5f5;
+}

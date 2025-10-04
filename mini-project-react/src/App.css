@@ -1,0 +1,19 @@
+.app-light {
+  background-color: #EAF6FF; /* light sky */
+  color: #2C3E50;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-dark {
+  background-color: #0B1A2C; /* stormy dark */
+  color: #ECF0F1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

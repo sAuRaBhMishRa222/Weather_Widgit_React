@@ -1,0 +1,33 @@
+.InfoBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 50%;           /* wider wrapper */
+  max-width: 1000px;    /* optional max width */
+  margin-left: auto;    /* center wrapper */
+  margin-right: auto;
+}
+
+.light .cardContainer,
+.dark .cardContainer {
+  width: 100%;          /* card fills wrapper */
+  max-width: 800px;     /* controls maximum card width */
+  padding: 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin: 0 auto;       /* centers card */
+}
+
+/* Light mode */
+.light .cardContainer {
+  background-color: #FFFFFF;
+  color: #2C3E50;       /* default text color inside card */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Dark mode */
+.dark .cardContainer {
+  background-color: #1C2833;
+  color: #ECF0F1;       /* default text color inside card */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.7);
+}
