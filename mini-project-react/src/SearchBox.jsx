@@ -8,7 +8,7 @@ export default function SearchBox({ updateInfo, theme }) {
   let [error, setError] = useState(false);
 
   const COORDINATE_URL = "http://api.openweathermap.org/geo/1.0/direct";
-  const API_KEY = "b403c3ae3d773c511019fab238c79e6a";
+  const API_KEY = "";//write your own weather API key
   const MAIN_URL = "https://api.openweathermap.org/data/2.5/weather";
 
   let getWeather = async () => {
